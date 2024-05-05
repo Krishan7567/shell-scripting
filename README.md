@@ -13,4 +13,3 @@ All above work will be done on local repository, i.e our laptop.
 4. git push  - will push the changes to repo on github.
 
 5. git pull -> to pull changes to local repo.
-hello
