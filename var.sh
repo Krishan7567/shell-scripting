@@ -1,7 +1,7 @@
 #!/bin/bash
 a=10
 b=20
-d=
+d=test.txt
 echo $a
 echo $b
 echo "value of c - $c"
