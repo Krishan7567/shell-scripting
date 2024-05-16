@@ -6,4 +6,4 @@ echo $a
 echo $b
 echo "value of c - $c"
 echo - e "to prvide value to c at run time use export, eg export c=12"
-rm -rf /cd/tmp/test/{$d}
+rm -rf /cd/tmp/test/test.txt
