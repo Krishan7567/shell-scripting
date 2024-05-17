@@ -5,6 +5,4 @@ stat()
    echo "number of user logged in : $(who | wc -l)"
 }
 
-calling stat fuc
-
 stat
