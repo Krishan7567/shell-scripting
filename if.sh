@@ -14,4 +14,6 @@ elif [ "$b" == "k" ];then
 echo "no"
 elif [ "$b" == "kkb"];then
 echo "you are best"
+else 
+echo "Value is not kk or kkb or k"
 if
