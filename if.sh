@@ -1,6 +1,8 @@
 #!/bin/bash
 
 a="abcd"
-if [ "$a" == "abcd" ];then
+if [ "$a" == "bcd" ];then
 echo "correct"
+else 
+echo "in-correct"
 fi
