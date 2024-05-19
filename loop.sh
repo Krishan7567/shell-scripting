@@ -7,8 +7,8 @@ done
 ##############
 
 p=5
-while [ p -gt 0 ]; do
+while [ p -gt 0 ] ; do
 
 echo "hello"
-p = $p-1
+p=$p-1
 done
