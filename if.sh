@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a = "abc"
+a="abc"
 if ["$a" == "abc"]; then
    echo "correct"
 fi
