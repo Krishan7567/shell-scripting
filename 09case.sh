@@ -12,5 +12,6 @@ stop)
      ;;
 *)
     echo -e "\e[32m enter valid option\e[0m"
+    exit 2
 
 esac
