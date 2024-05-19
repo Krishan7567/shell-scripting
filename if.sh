@@ -16,4 +16,3 @@ elif [ "$b" == "kkb"];then
 echo "you are best"
 if
 
-fi
