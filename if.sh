@@ -15,4 +15,3 @@ echo "no"
 elif [ "$b" == "kkb"];then
 echo "you are best"
 if
-
