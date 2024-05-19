@@ -6,10 +6,8 @@ done
 
 ##############
 
-p=5
-
-while [ $p -gt 0 ] ; do
-
-    echo "hello"
+p=5 
+while [ $p -gt 0 ] ; do 
+    echo Run Number is $p 
     p=$p-1
 done
