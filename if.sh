@@ -10,6 +10,9 @@ elif [ "$b" == "k" ] ; then
 elif [ "$b" == "kkb" ] ; then
     echo "you are best"
 
+elif [ -z $b ] ; then
+     echo "why"
+
 else 
     echo "Value is not kk or kkb or k"
 
