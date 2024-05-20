@@ -1,4 +1,4 @@
 #!/bin/bash
 pwd
-a=(ls -lrt)
+a=$(ls -lrt)
 echo "$a" 
