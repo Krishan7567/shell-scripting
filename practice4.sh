@@ -20,10 +20,10 @@ do
     done
 
     #Loop for printing 2nd part
-    for((l=(row-1);l>=1;l--))
-    do
-        echo -ne "$l"
-    done
+    #for((l=(row-1);l>=1;l--))
+    #do
+    #    echo -ne "$l"
+    #done
 
     #echo for printing new line
     echo 
