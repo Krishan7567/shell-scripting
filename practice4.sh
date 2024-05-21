@@ -14,16 +14,16 @@ do
     done
 
     #Loop for printing 1st part
-    for((j=1;j<=row;j++))
-    do
-        echo -ne "$j"
-    done
-
-    #Loop for printing 2nd part
-    #for((l=(row-1);l>=1;l--))
+    #for((j=1;j<=row;j++))
     #do
-    #    echo -ne "$l"
+    #    echo -ne "$j"
     #done
+
+    Loop for printing 2nd part
+    for((l=(row-1);l>=1;l--))
+    do
+        echo -ne "$l"
+    done
 
     #echo for printing new line
     echo 
