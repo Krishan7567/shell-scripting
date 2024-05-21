@@ -1,9 +1,8 @@
 #!/bin/bash
 count=5
-for [ i=1, i<=count, i++]; do
-    {
-        for [ j=1, j<=i, j++]; do
+for [ i=1, i<=$count, i++]; do
+    for [ j=1, j<=i, j++]; do
         echo "*"
-    }
-    echo -e "\n"
+    done
+    echo ""
 done
