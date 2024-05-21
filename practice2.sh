@@ -1,18 +1,11 @@
-#!/bin/bash
-#count=5
-#for [ i=1, i<=$count, i++]; do
-#    for [ j=1, j<=i, j++]; do
-#        echo "*"
-#    done
-#    echo ""
-#done
+
 
 #!/bin/sh
 for ((i=1;i<=5;i++))
 do
 for ((j=1;j<=i;j++))
 do
-   echo -e  "$i "
+   echo -e  "$j \c"
 done
 echo ""
 done
