@@ -8,10 +8,10 @@ for((row=1;row<=number;row++))
 do
 
     #Loop for printing required spaces
-    #for((spaces=row;spaces<=number;spaces++))
-    #do
-    #    echo -ne " "
-    #done
+    for((spaces=row;spaces<=number;spaces++))
+    do
+        echo -ne " "
+    done
 
     #Loop for printing 1st part
     for((j=1;j<=row;j++))
