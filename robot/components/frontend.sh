@@ -1,23 +1,9 @@
 #!/bin/bash 
 set -e 
 
-UserID=$(id -u)
-
 COMPONENT=frontend
-LOGFILE=/tmp/$COMPONENT.log
 
-if [$UserID -ne 0 ] ; then
-    echo -e "\e[32m run script as a root user \e[0m"
-    exit 1
-
-stat() {
-    if [$1 -eq 0]; then
-        echo -e "\e[32m success \e[0m"
-    else
-        echo -e "\e[32m failure \e[0m"
-    fi
-}
-
+source components/common.sh
 
 echo -n "Installing Ngnix:"
 yum install nginx -y &>> $LOGFILE
